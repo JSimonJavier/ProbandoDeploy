@@ -2,10 +2,10 @@ const express = require('express')
 const mongoose = require('mongoose')
 const routes = require('./routes')
 const app = express()
-const port = 5000
 const dotenv = require('dotenv')
 dotenv.config()
-const uri = "mongodb+srv://javisimon22:dJrUwMt8jA9kgApw@data-base.shzhzce.mongodb.net/"
+const port = process.env.PORT
+const uri = `mongodb+srv://javisimon22:${process.env.PASSWORD}@data-base.shzhzce.mongodb.net/`
 const path = require('path');
 
 app.use(express.json());
