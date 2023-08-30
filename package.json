@@ -1,0 +1,32 @@
+{
+  "name": "nuevo-intro-docentes",
+  "version": "1.0.0",
+  "description": "First version for P5 New Intro FullStack Course",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plataforma5/nuevo-intro-docentes.git"
+  },
+  "keywords": [
+    "intro"
+  ],
+  "author": "Plataforma 5 Coding Bootcamp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Plataforma5/nuevo-intro-docentes/issues"
+  },
+  "homepage": "https://github.com/Plataforma5/nuevo-intro-docentes#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1",
+    "nodemon": "^3.0.1",
+    "sweetalert": "^2.1.2"
+  }
+}
